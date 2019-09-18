@@ -6,7 +6,7 @@ The project aims to implement the mobile-first approach to achieve a more user-f
 
 It also enhances the way of presenting myself professionally. Having a simplified portfolio version also tries to refer to my career path and current programming abilities. 
 
-The page targets recruiter and employers. Hence it keeps things short and simple. Usually, such user groups don't spend much time in reading the long text as it takes up to a couple of minutes to glance over the portfolio. The site provides more than one point of use to download or print CV for users with a traditional approach. The page footer contains social links for additional reference and renders completeness.
+The page targets recruiters and employers. Hence it keeps things short and simple. Usually, such user groups don't spend much time in reading the long text as it takes up to a couple of minutes to glance over the portfolio. The site provides more than one point of use to download or print CV for users with a traditional approach. The page footer contains social links for additional reference and renders completeness.
 
 ![land-page-desk](https://user-images.githubusercontent.com/51206904/65069700-85cd0c00-d98b-11e9-9eea-e686e66535b8.PNG)![tablet-land](https://user-images.githubusercontent.com/51206904/65069793-bad95e80-d98b-11e9-800e-bc77ef40ddc6.png)![mob-land-page](https://user-images.githubusercontent.com/51206904/65068590-3ab1f980-d989-11e9-8a15-9d78651974fc.png)
 
