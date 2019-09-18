@@ -2,10 +2,11 @@
 
 ### Why this portfolio page?
 
-The project tries to implement the mobile-first approach to achieve more user-friendly vestion of the page content. I have decided to do a portfolio site as it utilizes the effort to something practical which I can develop further. 
-It also enhances the way presenting myself professionally. It is simplified portfolio version as it aims to refer to my current level programming abilities. 
-The page targets recruiter and employers, hence it keeps things short. Such users don't spend much time in reading long text as it usually takes up to couple of minutes to glance over the portfolio. 
-At the bottom contains social links for additional references and keep the content light.
+The project aims to implement the mobile-first approach to achieve a more user-friendly and intuitive version of the page content. I have decided to do a portfolio site as it utilizes the effort to do something practical which I can develop further. 
+
+It also enhances the way of presenting myself professionally. Having a simplified portfolio version also tries to refer to my career path and current programming abilities. 
+
+The page targets recruiter and employers. Hence it keeps things short and simple. Usually, such user groups don't spend much time in reading the long text as it takes up to a couple of minutes to glance over the portfolio. The site provides more than one point of use to download or print CV for users with a traditional approach. The page footer contains social links for additional reference and renders completeness.
 
 ![land-page-desk](https://user-images.githubusercontent.com/51206904/65069700-85cd0c00-d98b-11e9-9eea-e686e66535b8.PNG)![tablet-land](https://user-images.githubusercontent.com/51206904/65069793-bad95e80-d98b-11e9-800e-bc77ef40ddc6.png)![mob-land-page](https://user-images.githubusercontent.com/51206904/65068590-3ab1f980-d989-11e9-8a15-9d78651974fc.png)
 
@@ -15,9 +16,8 @@ At the bottom contains social links for additional references and keep the conte
 
 ##### Landing page
 
-It includes active navbar consistent on mobille and desktop and hints the active language as the page contains also a version in Bulgarian which is mine native language. Makes the page accessible for users who prefer to see it in Bulgarian, especially in the skills section.
-It provides also the option to switch languages as in case the user missed the option to spot the active language link at the top right of the screen. 
-This feature makes the landing page more intuitive. 
+It includes active navbar consistent on mobile and desktop and a active language bar. There is a version in Bulgarian which is my native language. Makes the page more accessible for users who prefer to see it in Bulgarian, especially for the skills section.
+Navbar menu provides also the option to switch languages as in case the user missed the option to spot the active language link at the top right of the screen. This way, once the user is checking the navbar, won’t need to look for a language change elsewhere.  This feature makes the landing page more intuitive. 
 
 ##### About Me</h5>
 This section has the skills and a brief text moto about me to present the current skillset. Here the Bulgarian version helps as the skills are better reffered to Bulgarian if a looked by recruiter in this language.
