@@ -1,185 +1,290 @@
-html, body {
+header section {
     margin:0;
+}
+
+/*----------------- landing page ------------------*/
+
+    
+.callout-container {
+  height: 100vh;
+  background: url("https://images.pexels.com/photos/2812697/pexels-photo-2812697.jpeg") no-repeat bottom right fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  align-items:center;
+  justify-content:center;
+}
+
+
+.jumbotron {
+    background-color: rgba(0,0,0,0.25);
+    margin-top: 3.5em;
+    margin-bottom: 0.5rem;
+    padding: 0px;
+}
+    
+.jumbotron-header {
+    color: #fafafa;
+    margin-bottom: 15px;
+    margin-left:0;
+    font-size: 86px;
+}
+
+.navbar-nav {
+    color:#fafafa;
+}
+
+.vocation {
+    color: #fafafa;
+    font-size: 18px;
+    
+}
+/*----------------- navbar ------------------*/
+
+.navalert-container {
+    position:absolute;
+    top:0;
+    left:0;
+    padding-left:0;
+    padding-right:0;
+}
+
+.navbar {
+    margin-bottom:0;
+    border:0;
+    width:100%;
+    background: rgba(0,0,0,0.15);
+}
+
+.navbar .navbar-toggler {
+    border: solid 2px;
+    border-color:#fafafa;
+    
+}
+
+.collapse .navbar-collapse {
+    border: solid 2px;
+    border-color:#fafafa;
+}
+
+
+/*----------------- About and Skils page ------------------*/
+
+.capslock {
+    text-align: justify;
+}
+
+
+.font-pack-about {
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 100;
+    font-family: "Raleway", sans-serif;
+    padding-top: 15px;
+}  
+
+.logo_a {
+    background: url("../assets/images/cassette-cassette-tape-music-92083.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 760px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all, 0.5s, ease-in-out;
+    -webkit-transition: all,0.5s, ease-in-out;
+}
+
+
+
+.center {
+    width: 100%;
+    padding-left: 15px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 0 20px 50px rgba(0,0,0,.25);
+    
+}
+
+.font-pack{
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+}
+
+.skillBox {
+     box-sizing: border-box;
+     width: 100%;
+     margin:20px 0;
+     padding-right: 12px;
+}
+
+.skillBox p {
+    letter-spacing: 1px;
+    text-transform: lowercase;
+    margin: 0 0 10px;
     padding: 0;
-    height: 100%;
-    width: 100%;
 }
 
-/* --- Full landing page */ 
+.skillBox p:nth-child(2){
+    float: right;
+    position: relative;
+    top:-35px;
+ 
+}
+  
+.skill {
+    background:#fafafa;
+    padding: 4px;
+    padding-left:4px;
+    box-sizing: border-box;
+    border: 1px solid;
+    border-radius: 3px;
+}
 
-.intro {
-    height: 100%;
+.skill-level {
+    background:#757C82;
     width: 100%;
-    margin: auto;
-    background: url(https://images.pexels.com/photos/2812697/pexels-photo-2812697.jpeg) no-repeat 50% 50% ;
-    display: table;
+    height: 10px;
+    border-radius:2px;
+}
+
+/*----------------- contact page ------------------*/
+
+.logo {
+    background: url("https://images.pexels.com/photos/594452/pexels-photo-594452.jpeg");
+    background-repeat: no-repeat;
     background-size: cover;
-    top: 0;
+    background-position: center;
+    min-height: 760px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all, 0.5s, ease-in-out;
+    -webkit-transition: all,0.5s, ease-in-out;
 }
 
-.intro .inner {
-    display: table-cell;
-    vertical-align: middle;
-    width: 100%;
-    max-width: none;
-    text-align: center;
+.bg-color-contact {
+    background-color: #d9e3da;
+    box-sizing: border-box;
+    border-radius: none;
+    box-shadow: 0 20px 50px rgba(0,0,0,.1);
+    padding-bottom: 14em;
 }
 
-.content {
+.contact-heading {
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    margin-top: 5em;
+    margin-bottom: 2em;
+}
+
+.center-form {
+    padding-top:10px;
     margin: 0 auto;
-    text-align: center;
+    max-width: 75%
 }
 
-.content h1 {
-    font-family: "Raleway", sans-serif;
-    color: #fafafa;
-    text-shadow: 0px 0px 300px #000; 
-}
-
-
-#btn-down-left {
-    font-family: "Raleway", sans-serif;
-    color: #fafafa;
-    text-shadow: 0px 0px 300px #000; 
-    text-align: left;
-    width: 90px;
-    vertical-align: bottom;
-}
-
-.btn {
-    border: solid 3px;
-    border-radius: 9px;
-    color: #fafafa; 
-    font-family: "Raleway", sans-serif;
-    text-decoration: none;
-    font-size:100%; 
-    padding: 5px 9px;
-}
-
-.btn:hover {
-    color: #91C8E8;
-    border: solid 3px;
-}
-
-/* -- NAV --*/
-
-
-.navDefault {
-    border: none;
-    position: fixed;
-    top: 0;
-    left:0;
-    right: 0;
-    background-color: transparent;
-}
-
-button {
-    border: solid 3px;
-    height: 40px;
-    width: 160px;
-    color: #fff;
-    background-color:#99968A;
-    border-radius: 9px;
-}
-
-.iten{
-    list-style:none;
-}
-
-
-.dropdownMenu {
-    position: absolute;
-    border-radius: 9px;
-    margin:0;
-    left:0;
-    top: 40px;
-    right:0;
-    width:150px;
-    z-index: -1;
-    padding: 5px;
-    color: #fafafa;
-    transform: translateY(-100%);
-    transition: transform .5s easy-in-out;
-}
+.form-control{
+    margin-top: 2px;
     
+}   
 
+.input {
+    padding-top: 1em;
+}
 
-.listing {
-    text-decoration: none;
-    display:block;
-    padding:5px;
-    font-family: "Raleway", sans-serif;
+btn-info btn-lg
+
+button[type="submit"] {
+    margin-top: 1.5em;
+    margin-bottom: 14em;
+    width: 50%;
     color: #fafafa;
-    background-color:#99968A;
-    border-radius: 9px;
-    text-align:center;
-
+    background-color: #E8767B;
 }
 
-.listing:hover {
-    color: #91C8E8;
-    border: solid 3px;
-    border-radius: 9px;
-    width:150px;
+/*--- modal form --*/
+
+.modal-body {
+    font-size: 1.15em;
+    text-align: justify;
 }
 
-
-button:hover {
-    color: #91C8E8;
-    border: solid 3px;}
-
-.dropdown:hover .dropdownMenu {
-    transform: translateY(0);
-}
-
-
-/* --------------- SECTION ------------------------------*/
-
-#landing-two  {
-    height: 100%;
-    width: 100%;
-    margin: auto;
-    background: url(https://images.pexels.com/photos/273786/pexels-photo-273786.jpeg)no-repeat 50% 50%;
-    display: table;
-    background-size: cover;
-    top: 0;
-    
-}
-
-
-#landing-three{
-    height: 100%;
-    width: 100%;
-    margin: auto;
-    background: url(https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg)no-repeat 50% 50%;
-    display: table;
-    background-size: cover;
-    top: 0;
-}
-
-#landing-four{
-    height: 100%;
-    width: 100%;
-    margin: auto;
-    background: url(https://images.pexels.com/photos/594452/pexels-photo-594452.jpeg)no-repeat 50% 50%;
-    display: table;
-    background-size: cover;
-    top: 0;
-}
-
-
-/* --------------- FOOTER ------------------------------*/
-
- #soft-landing{
-     padding: 50px;
-     background-color: #FFECAA;
+.icon-size a {
+     font-size:36px;
  }
- 
- 
-.cvc {
-    text-decoration: none;
+/*----------------- foooter------------------*/
+
+.uppercase {
+    text-transform: uppercase;
 }
 
+.general-sub {
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+    
+}
 
-.icon-list-link{
-    list-style:none;}
+footer {
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 130px;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.cv-pdf i {
+    font-size: 28px;
+    color: #fafafa;
+    text-align: center;
+    padding-left: 5px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all, 0.5s, ease-in-out;
+    -webkit-transition: all,0.5s, ease-in-out;
+    -o-webkit-transition: all,0.5s, ease-in-out;
+}
+
+.cv-pdf i:hover {
+    color:#E8767B;
+}
+    
+.social-links li a i{
+    width: 64px;
+    height: 64px;
+    padding-bottom: 12px 0;
+    color: #fafafa;
+    font-size: 28px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all, 0.5s, ease-in-out;
+    -webkit-transition: all,0.5s, ease-in-out;
+    -o-webkit-transition: all,0.5s, ease-in-out;
+}
+
+.social-links li a i:hover {
+    color:#E8767B;
+}
+
+#footer-details {
+    padding: 29px; 
+}
+
+/*----------------- @MEDIA QUERIES -------------*/
+
+@media (max-width: 767px) {
+    #mobile-hide {
+        visibility: hidden;
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .font-pack-about {
+        letter-spacing: 0.25px;
+    }
+    .icon-size a i{
+     font-size:36px;
+     text-align: center;
+}
+}

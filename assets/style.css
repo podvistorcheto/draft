@@ -5,8 +5,6 @@ header section {
 /*----------------- landing page ------------------*/
 
     
-
-
 .callout-container {
   height: 100vh;
   background: url("https://images.pexels.com/photos/2812697/pexels-photo-2812697.jpeg") no-repeat bottom right fixed; 
@@ -169,6 +167,7 @@ header section {
     box-sizing: border-box;
     border-radius: none;
     box-shadow: 0 20px 50px rgba(0,0,0,.1);
+    padding-bottom: 14em;
 }
 
 .contact-heading {
@@ -193,6 +192,7 @@ header section {
     padding-top: 1em;
 }
 
+btn-info btn-lg
 
 button[type="submit"] {
     margin-top: 1.5em;
@@ -271,14 +271,15 @@ footer {
 }
 
 /*----------------- @MEDIA QUERIES -------------*/
-@media (max-width: 768px) {
+
+@media (max-width: 767px) {
     #mobile-hide {
         visibility: hidden;
         display: none;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .font-pack-about {
         letter-spacing: 0.25px;
     }
