@@ -44,6 +44,7 @@ The page suggest some features to be implemented in the future. A personal blog 
 - CSS
 - Inline JavaScript - used in the index.html to make the contact form responsive. Probably not the most elegant approach but javascript is yet to be covered in the next module of the course. Hence, I adopted this approach with adding the inline script. Tutors advised me to use solution from [here](https://stackoverflow.com/questions/45914792/validate-form-before-bootstrap-modal-popup). It was later modified (see acknowledgents).
 
+![Capturecode](https://user-images.githubusercontent.com/51206904/65221262-f9226b00-dabc-11e9-8e4b-06d8baa504e4.PNG)
 
 
 ### Testing
